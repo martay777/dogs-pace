@@ -1,0 +1,127 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: linear-gradient(to right, #d4e2d4, #f0f4f8); /* Subtle gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack logo and navigation vertically */
+    padding: 10px 0; /* Reduce or adjust this value if needed */
+}
+
+.logo {
+    width: 180px; /* Adjust based on your preference */
+    margin-bottom: 5px; /* Reduce this margin to bring the logo closer to the navigation */
+}
+
+nav {
+    width: 100%;
+    background-color: #d4e2d4; /* Ensures the nav bar matches the header's theme */
+    padding: 5px 0; /* Reduce padding to decrease vertical space */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px; /* Adjust padding for a tighter fit if necessary */
+}
+
+nav ul li a:hover {
+    background-color: #6f8a7c;
+    color: #ffffff;
+}
+
+/* Section Styling */
+section {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    margin-bottom: 30px; /* Added bottom margin for better separation */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* About and Services Section */
+section#about, section#services {
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    line-height: 1.8;
+    background-color: #f9f9f9; /* Light background to distinguish from other content */
+}
+
+section#about h2, section#about h3, section#services h2, section#services h3 {
+    text-align: center; /* Centers the text */
+    color: #2c3e50;
+    font-size: 26px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Adds spacing under the headings */
+}
+
+section#about p, section#services p {
+    color: #555;
+    margin-bottom: 18px;
+    text-align: justify; /* Justifies the text for a cleaner look */
+}
+
+section#services .note {
+    font-style: italic;
+    color: #444;
+    margin-top: 10px;
+    text-align: center; /* Center the note text */
+    font-size: 14px; /* Smaller size for notes */
+}
+
+/* Additional Styling for Emphasis */
+section#about p strong, section#services p strong {
+    font-weight: bold;
+    color: #2c3e50; /* Emphasize important parts */
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f4f8; /* Match the gradient end */
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-content {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto; /* Ensure the footer content is centered */
+    display: flex;
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    flex-direction: column; /* Stack the elements vertically */
+}
+
+.insurance-seal {
+    width: 80px; /* Adjust the size of the seal */
+    height: auto;
+    margin-top: 10px; /* Add some space between text and logo */
+}
